@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <% include partials/head.ejs %>
+
+</head>
+<body>
+
+	<% include partials/header.ejs %>
+
+  <div class="jumbotron text-center">
+    <h2>ProjectR</h2>
+  </div>
+
+
+  <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+      <li data-target = "#myCarousel" data-slide-to = "1"></li>
+      <li data-target = "#myCarousel" data-slide-to = "3"></li>
+      <li data-target = "#myCarousel" data-slide-to = "4"></li>
+      <li data-target = "#myCarousel" data-slide-to = "5"></li>
+      <li data-target = "#myCarousel" data-slide-to = "6"></li>
+      <li data-target = "#myCarousel" data-slide-to = "7"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="images/breathless_1024_768.jpg" alt="Breathless" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Breathless</h3>
+          <a href="film/<%= movies[0].film_selection %>">
+            <i class="fa fa-play-circle-o" style="font-size:36px;"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/kane_1024_768.jpg" alt="Citizen Kane" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Citizen Kane</h3>
+          <a href="film/<%= movies[1].film_selection %>">
+            <i class="fa fa-play-circle-o" style="font-size:36px;"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/buster_1024_768.jpg" alt="Sherlock Jr." class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Sherlock Jr.</h3>
+          <a href="film/<%= movies[2].film_selection %>">
+            <i class="fa fa-play-circle-o" style="font-size:36px;"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/potemkin_1024_768.jpg" alt="Battle Ship Potemkin" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Battleship Potemkin</h3>
+          <a href="film/<%= movies[3].film_selection %>">
+            <i class="fa fa-play-circle-o" style="font-size:36px;"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/moon_1024_768.jpg" alt="A Trip to the Moon" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>A Trip to the Moon</h3>
+          <a href="film/<%= movies[4].film_selection %>">
+            <i class="fa fa-play-circle-o" style="font-size:36px;"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/hunter_1024_768.jpg" alt="Night of the Hunter" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Night of the Hunter</h3>
+          <a href="film/<%= movies[5].film_selection %>">
+            <i class="fa fa-play-circle-o" style="font-size:36px;"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/nosferatu_1024_768.jpg" alt="Nosferatu" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Nosferatu</h3>
+          <a href="film/<%= movies[6].film_selection %>">
+            <i class="fa fa-play-circle-o" style="font-size:36px;"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#myCarousel" class="carousel-control left" data-slide = "prev">
+      <span class="icon-prev"></span>
+    </a>
+
+    <a href="#myCarousel" class="carousel-control right" data-slide = "next">
+      <span class="icon-next"></span>
+    </a>
+
+  </div>
+
+<!-- Ideally, each film image would have a toggle drop down window that a user could click on that would display the film's information including the Director's name, year made, actor's names, and a short summary. All should be found in the json file. It can mirror the same style found on Netflix's movie selection page. --->
+
+
+	
+
+  <% include partials/scripts.ejs %>
+
+</body>
+</html>

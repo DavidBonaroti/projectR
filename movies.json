@@ -1,0 +1,65 @@
+{
+  "movies": [{
+    "title" : "Breathless",
+    "film_selection" : "1",
+    "starring" : ["Jean-Paul Belmondo", "Jean Seberg", "Daniel Boulanger" ],
+    "description" : "A small-time thief steals a car and impulsively murders a motorcycle policeman. Wanted by the authorities, he reunites with a hip American journalism student and attempts to persuade her to run away with him to Italy.",
+    "poster" : "breathless_1024_768.jpg",
+    "video_title" : "breathless.mp4"
+  },
+
+  {
+    "title" : "Citizen Kane",
+    "film_selection" : "2",
+    "main_characters" : ["Orson Welles", "Joseph Cotten" ],
+    "description" : "Following the death of a publishing tycoon, news reporters scramble to discover the meaning of his final utterance.",
+    "poster" : "kane_1024_768.jpg",
+    "video_title" : "kane.mp4"
+  },
+
+  {
+    "title" : "Sherlock Jr.",
+    "film_selection" : "3",
+    "main_characters" : ["Buster Keaton", "Kathryn McGuire" ],
+    "description" : "A film projectionist longs to be a detective, and puts his meagre skills to work when he is framed by a rival for stealing his girlfriend's father's pocketwatch.",
+    "poster" : "buster_1024_768",
+    "video_title" : "sherlock.mp4"
+  },
+
+  {
+    "title" : "Battleship Potemkin",
+    "film_selection" : "4",
+    "main_characters" : ["Aleksandr Antonov", "Vladimir Barsky", "Grigori Aleksandrov" ],
+    "description" : "In the midst of the Russian Revolution of 1905, the crew of the battleship Potemkin mutiny against the brutal, tyrannical regime of the vessel's officers. The resulting street demonstration in Odessa brings on a police massacre.",
+    "poster" : "potemkin_1024_768.jpg",
+    "video_title" : "potemkin.mp4"
+  },
+
+  {
+    "title" : "A Trip to the Moon",
+    "film_selection" : "5",
+    "main_characters" : ["Georges Meilies", "Victor Andre"],
+    "description" : "A group of astronomers go on an expedition to the Moon.",
+    "poster" : "moon_1024_768.jpg",
+    "video_title" : "moon.mp4"
+  },
+
+  {
+    "title" : "Night of the Hunter",
+    "film_selection" : "6",
+    "main_characters" : ["Robert Mitchum", "Shelley Winters", "Lillian Gish"],
+    "description" : "A religious fanatic marries a gullible widow whose young children are reluctant to tell him where their real daddy hid $10,000 he'd stolen in a robbery.",
+    "poster" : "hunter_1024_768.jpg",
+    "video_title" : "hunter.mp4"
+  },
+
+  {
+    "title" : "Nosferatu",
+    "film_selection" : "7",
+    "main_characters" : ["Max Schreck", "Greta Schroder", "Ruth Landshoff"],
+    "description" : "Vampire Count Orlok expresses interest in a new residence and real estate agent Hutter's wife.",
+    "poster" : "nosferatu_1024_768.jpg",
+    "video_title" : "nosferatu.mp4"
+  }]
+
+}

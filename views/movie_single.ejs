@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <% include partials/head.ejs %>
+
+</head>
+<body>
+
+	<% include partials/header.ejs %>
+
+<div class="container">
+  <div class="video-container">
+    <video class="full-video" controls preload="auto" autoplay="true">
+        <source src="../videos/<%= video_title %>" type="video/mp4">
+        Video Not Supported
+    </video>
+  </div>
+</div>
+<div class="jumbotron">
+  <a href="https://help.soundcloud.com/hc/en-us/articles/115003569248-Commenting">Link to Soundcloud Commenting Feature</a>
+</div>
+<div class="jumbotron">
+  Reddit Style Comment Board Located Here
+</div>
+
+  
+
+  <% include partials/scripts.ejs %>
+
+</body>
+</html>
